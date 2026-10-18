@@ -1,0 +1,41 @@
+{
+  "snapshot_date": "2026-10-18",
+  "source": "Desktop/draft/cabin-game/2026-10-18",
+  "files": [
+    {
+      "path": "05-design-brief/016_cabin-game_review-brief_v01.pdf",
+      "sha256": "919d725b33301571ff4fd0028ef004bb3b9fa164285c81e8f3fc93abcb81d167",
+      "bytes": 5930249
+    },
+    {
+      "path": "05-design-brief/017_cabin-game_agent-build-brief_v01.md",
+      "sha256": "e704731086de056505ab0c1c1b00554dbe1c6ce4cea7d989925171e4a2dda048",
+      "bytes": 18942
+    },
+    {
+      "path": "03-stylization/009_altai_dreamcore-simple_4view_v01.png",
+      "sha256": "1e42e3d2457df98c165ec408482de860e7aa1b14b0abc0c76e14dfe2687f5b2a",
+      "bytes": 1975359
+    },
+    {
+      "path": "02-locations/004_altai_soft-dream_4view_v01.png",
+      "sha256": "7d7000be9abe8551566fcc051108a7fd962aee0cfb50d464c0d706b787f75a6f",
+      "bytes": 2530321
+    },
+    {
+      "path": "02-locations/006_meadow_dreamcore_4view_v01.png",
+      "sha256": "239f4001936ff4adbbe5f7868284c116f21331aaf06212d24b45279c07525460",
+      "bytes": 2349381
+    },
+    {
+      "path": "04-site-planning/014_altai-foothill_level-spec_v01.json",
+      "sha256": "76e6b54953774e01f9d077034f69d2bbf533c7a2f7c0a8b8820e9b7e55ecabe4",
+      "bytes": 2326
+    },
+    {
+      "path": "04-site-planning/015_altai-foothill_terrain-grid-4m_v01.csv",
+      "sha256": "668bed02eaaafb6a280ed3a9c221880fee35bac58dcd867acb19df021306cd2b",
+      "bytes": 19234
+    }
+  ]
+}

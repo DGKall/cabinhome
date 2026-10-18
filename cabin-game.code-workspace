@@ -1,0 +1,21 @@
+{
+  "folders": [{ "name": "Cabin Game", "path": "." }],
+  "settings": {
+    "files.watcherExclude": {
+      "**/Library/**": true,
+      "**/Temp/**": true,
+      "**/Obj/**": true,
+      "**/Logs/**": true
+    },
+    "search.exclude": {
+      "**/Library": true,
+      "**/Temp": true,
+      "**/Obj": true,
+      "**/Builds": true
+    },
+    "[csharp]": { "editor.tabSize": 4, "editor.insertSpaces": true }
+  },
+  "extensions": {
+    "recommendations": ["visualstudiotoolsforunity.vstuc"]
+  }
+}

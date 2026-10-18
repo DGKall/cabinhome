@@ -1,0 +1,13 @@
+2026-10-18 local environment verification
+
+CABIN_ENVIRONMENT target=StandaloneOSX installed=True
+CABIN_ENVIRONMENT target=StandaloneWindows64 installed=True
+CABIN_ENVIRONMENT target=iOS installed=True
+CABIN_ENVIRONMENT_SMOKE_PASSED Unity=6000.3.26f1; Blender FBX imported
+
+.NET SDK 10.0.402: temporary console program compiled and ran.
+Blender 5.2.2 LTS: GLB export/import retained 1x1x1 metre dimensions; FBX export passed.
+Xcode 27.1: GUI started; iOS 27.1 and macOS 27.0 SDKs available.
+
+Scope: installation, compiler, build-target recognition, synthetic model import.
+Not performed: production URP project setup, real Hunyuan asset acceptance, platform builds, Windows/iOS device tests.

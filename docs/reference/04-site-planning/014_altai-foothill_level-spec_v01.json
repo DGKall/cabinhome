@@ -1,0 +1,149 @@
+{
+  "status": "game-level concept, assumed dimensions, not surveyed construction drawings",
+  "units": "metres",
+  "coordinate_system": {
+    "origin": "southwest corner",
+    "x": "east",
+    "y": "north",
+    "z": "relative elevation"
+  },
+  "site": {
+    "bounds": [
+      0,
+      0,
+      160,
+      120
+    ],
+    "area_m2": 19200
+  },
+  "upgrade_plot": {
+    "bounds": [
+      48,
+      38,
+      112,
+      86
+    ],
+    "area_m2": 3072,
+    "north_south_grade_percent": 1.25
+  },
+  "core_zone": {
+    "bounds": [
+      64,
+      50,
+      96,
+      78
+    ],
+    "area_m2": 896
+  },
+  "house_phases": [
+    {
+      "phase": 1,
+      "bounds": [
+        72,
+        58,
+        78,
+        66
+      ],
+      "area_m2": 48
+    },
+    {
+      "phase": 2,
+      "bounds": [
+        72,
+        58,
+        82,
+        70
+      ],
+      "area_m2": 120
+    },
+    {
+      "phase": 3,
+      "bounds": [
+        72,
+        58,
+        88,
+        70
+      ],
+      "area_m2": 192
+    }
+  ],
+  "deck": {
+    "bounds": [
+      72,
+      55,
+      88,
+      58
+    ],
+    "area_m2": 48
+  },
+  "main_path": {
+    "bounds": [
+      75,
+      0,
+      77,
+      55
+    ],
+    "width_m": 2
+  },
+  "workshop": {
+    "bounds": [
+      54,
+      63,
+      62,
+      69
+    ],
+    "area_m2": 48
+  },
+  "greenhouse": {
+    "bounds": [
+      96,
+      63,
+      104,
+      67
+    ],
+    "area_m2": 32
+  },
+  "garden": {
+    "bounds": [
+      54,
+      44,
+      66,
+      54
+    ],
+    "area_m2": 120
+  },
+  "flexible_reserve": {
+    "bounds": [
+      92,
+      42,
+      106,
+      54
+    ],
+    "area_m2": 168
+  },
+  "foothill_y": 86,
+  "rear_house_to_foothill_m": 16,
+  "finished_floor_z": 101,
+  "terrain_function": {
+    "y_less_than_38": "99 + 0.03*y",
+    "y_38_to_86": "100.14 + 0.0125*(y-38)",
+    "y_above_86": "100.74 + 0.32*(y-86) + (0.018 + 0.004*sin(x/25))*(y-86)^2"
+  },
+  "section": {
+    "x": 80,
+    "y_range": [
+      0,
+      120
+    ],
+    "horizontal_scale": 400,
+    "vertical_scale": 400
+  },
+  "terrain_grid_spacing_m": 4,
+  "default_build_grade_limit_percent": 5,
+  "notes": [
+    "lake and distant snowy mountains are outside the playable site",
+    "contour spacing 0.25 m on terrace and 4 m uphill",
+    "house areas are cumulative",
+    "drainage arrows show design intent, not hydraulic calculations"
+  ]
+}

@@ -1,0 +1,47 @@
+# macOS / editors
+.DS_Store
+._*
+.idea/
+.vs/
+*.sln
+*.csproj
+*.user
+*.suo
+
+# Unity generated state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+sysinfo.txt
+*.pidb
+*.booproj
+
+# Secrets and signing
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.mobileprovision
+*.keystore
+*.jks
+*.key
+*.pem
+
+# Raw downloads, backups and local artifacts
+/assets-source/hunyuan/inbox/**
+*.blend[0-9]
+/lfs/
+/output/
+/city-demo/
+/art-direction/
+node_modules/
+__pycache__/
+.agents/
+.codex/
