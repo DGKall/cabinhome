@@ -13,7 +13,7 @@ GitHub：[DGKall/cabinhome](https://github.com/DGKall/cabinhome)（用户创建�
 3. 阅读 [进度与下一步](docs/PROGRESS.md)：实际完成内容、下一项任务及阻塞。
 4. 涉及模型或场景时，阅读 [素材需求](docs/ASSETS.md) 和 [设计简报](docs/reference/05-design-brief/017_cabin-game_agent-build-brief_v01.md)。配套 PDF 包含关键视觉参考。
 
-**当前没有正式 Unity 工程或可运行游戏。** 已完成本地工具安装与临时工程验证。计划将正式 Unity 项目放在 `unity/CabinGame/`；创建后应提交 `Assets/`（含 `.meta`）、`Packages/` 和 `ProjectSettings/`。
+**当前已有正式 URP 工程和空间灰盒 demo。** 工程位于 `unity/CabinGame/`，入口场景为 `Assets/Scenes/Meadow.unity`。打开场景点击 Play；本机独立包构建后也可双击根目录 `play-demo.command`。详细操作与构建方法见 [试玩说明](docs/DEMO.md)。
 
 ## 目录
 
@@ -23,7 +23,7 @@ GitHub：[DGKall/cabinhome](https://github.com/DGKall/cabinhome)（用户创建�
 | `docs/reference/` | 设计来源快照，避免依赖原机器的桌面路径 |
 | `development/` | 开发环境说明、检查脚本和已有验证证据 |
 | `assets-source/` | Blender 源文件与导出资产；下载收件箱不上传 |
-| `unity/CabinGame/` | 计划中的正式游戏工程，目前尚未创建 |
+| `unity/CabinGame/` | 正式 Unity URP 工程，代码、场景、资源、包锁和项目设置 |
 
 当前目录还保留 `city-demo/`、`art-direction/`、`output/` 等早期演示或生成输出，不属于当前游戏实现，暂不纳入本仓库。选定参考资料已单独归档到 `docs/reference/`。
 

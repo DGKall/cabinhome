@@ -83,11 +83,21 @@
   "notes": [
     "Homebrew was already outdated and its configured USTC mirrors returned HTTP 403. Official app installers were used.",
     "Hunyuan 3D is a web workflow. No local model runtime installed.",
-    "No production Unity project or gameplay created.",
-    "No real Hunyuan asset or Windows/iOS device validation performed."
+    "No real Hunyuan asset or Windows/iOS device validation performed.",
+    "Production URP project and Mac spatial graybox demo now created; see development/demo-validation.txt."
   ],
   "backups": [
     "/Users/yuenakel/Applications/Visual Studio Code 1.86 Backup.app",
     "/Users/yuenakel/.zprofile.before-cabin-setup-20261018"
-  ]
+  ],
+  "project_validation": {
+    "project": "unity/CabinGame",
+    "scene": "Assets/Scenes/Meadow.unity",
+    "urp": "17.3.0",
+    "input_system": "1.20.0",
+    "mac_build": "passed",
+    "runtime_walk_and_collision": "passed",
+    "tested_gpu": "Apple M3 Pro",
+    "other_platforms": "not tested"
+  }
 }

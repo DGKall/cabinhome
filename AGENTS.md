@@ -8,7 +8,7 @@
 
 ## 当前约束
 
-- 正式代码放在本仓库，Unity 工程计划位于 `unity/CabinGame/`。前期 Mac 开发，目标 macOS、Windows、iOS。
+- 正式代码放在本仓库，Unity 工程位于 `unity/CabinGame/`，当前场景为 `Assets/Scenes/Meadow.unity`；试玩与构建方法见 `docs/DEMO.md`。前期 Mac 开发，目标 macOS、Windows、iOS。
 - Unity 固定 `6000.3.26f1`，URP。更换引擎或升级主版本需要明确理由并记录，不能随手升级。
 - 先做可逆空间灰盒和最小风格验证，再扩展玩法。尺寸是待验证基线，不是最终定稿。
 - 美术以 009 梦核简化为主，004/006 为氛围参考。参考图不是可逐格复制的建筑图纸。

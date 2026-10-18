@@ -17,12 +17,12 @@
 | GitHub CLI | 2.102.0，官方发布包经 SHA-256 校验，安装到 `~/.local/bin/gh` |
 
 临时 Unity 工程成功启动并导入了 Blender 生成的验证 FBX。
-详细记录见 `environment.json` 与 `verification-results.txt`。尚未创建正式 URP 游戏工程或进行平台打包和真机测试。
+详细环境记录见 `environment.json` 与 `verification-results.txt`。后续已创建正式 URP 工程并完成 Mac demo 构建与运行，见 `demo-validation.txt` 和 `../docs/DEMO.md`；Windows/iOS 设备测试尚未进行。
 
 ## 工具分工
 
 - Unity Hub 管理 Unity 6.3 LTS Apple Silicon 编辑器与平台模块。
-- 新游戏项目选 Universal 3D / URP；当前工作区不是已经创建好的 Unity 项目。
+- 正式 Universal 3D / URP 工程位于 `unity/CabinGame/`；Unity Hub 应添加这个子目录，而非仓库根目录。
 - VS Code 编写 C#；微软 Unity 扩展已包含 C# Dev Kit 等依赖。
 - 单独安装的 .NET 10 SDK 用于编辑器工具与普通 C# 开发，不会把 Unity 项目的脚本运行时或语言版本自动升级为 .NET 10。
 - Blender 用于模型尺寸、原点、拓扑、UV、材质、减面和导出。
@@ -60,7 +60,7 @@
 
 ## 当前配置的边界
 
-工具安装与项目验证是不同阶段。Unity Personal 许可与临时工程启动已经验证；正式 URP 工程、GLB 导入包、构建和设备测试仍应分别记录结果。
+工具安装与项目验证是不同阶段。Unity Personal 许可、正式 URP 工程与 Mac demo 已验证；GLB 导入包、真实外部资产和其他平台设备测试仍需分别记录结果。
 Homebrew 原有版本不识别 macOS 27，且原镜像返回 403；本次主要工具采用官方安装包，不依赖 Homebrew。
 
 GitHub 远端使用用户创建的 `DGKall/cabinhome`。终端登录与浏览器/连接器登录相互独立；可用 `gh auth status` 检查，未登录时由用户执行 `gh auth login --hostname github.com --git-protocol https --web`。不要在文档或聊天中保存密码和访问令牌。

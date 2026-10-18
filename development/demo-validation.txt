@@ -1,0 +1,19 @@
+2026-10-18 / CabinHome v0.1
+
+Editor: Unity 6000.3.26f1
+URP: 17.3.0; Input System: 1.20.0
+CABIN_GRAYBOX_VALIDATION_PASSED
+CABIN_MAC_BUILD_PASSED (324583809 bytes reported by Unity)
+
+URP standalone smoke: PASS
+Walk from path, climb steps, enter cabin: True at (76.00, 2.03, 65.00)
+North wall blocks player: True
+Runtime errors: False
+Unity: 6000.3.26f1
+GPU: Apple M3 Pro
+
+Manual native UI checks: Tab switches to walking; held W moves toward cabin; digit 2 selects expansion view; B toggles outlines; GUI Hide plans and Reset buttons work.
+Visual checks: initial view and all review camera captures inspected; title clipping and gable normals corrected; planning outlines readable.
+Asset metadata: 40 unique GUIDs, no missing meta files.
+Mac binary contains arm64 and x86_64; only Apple M3 Pro was exercised.
+Not tested: Intel Mac, Windows, iOS, Hunyuan assets, frame-rate targets.
