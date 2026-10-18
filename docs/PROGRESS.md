@@ -9,7 +9,7 @@
 | SETUP-01 | 已完成 | 本地开发与建模环境 | `development/verification-results.txt`：Unity 临时工程启动、三平台模块识别、Blender FBX 导入、GLB 往返与 .NET 编译验证 |
 | DOC-01 | 已完成 | 项目文档、agent 约定与素材流程 | 根目录 README/AGENTS，docs 下项目、进度、决策与素材文档 |
 | REF-01 | 已完成 | 关键设计资料纳入仓库 | `docs/reference/` 中简报、配套 PDF、009/004/006 与地形数据快照 |
-| GIT-01 | 进行中 | 初始化 Git、连接用户指定 GitHub 仓库并同步 | 远端 `https://github.com/DGKall/cabinhome`（公开），待完成首次推送 |
+| GIT-01 | 受阻 | 初始化 Git、连接用户指定 GitHub 仓库并同步 | 本地提交与 LFS 检查完成；远端 `https://github.com/DGKall/cabinhome`（公开）；首次推送等待用户完成 GitHub CLI 浏览器授权 |
 | GAME-01 | 待做 | 创建正式 Unity URP 工程 | `unity/CabinGame/`；固定版本、文本序列化、包锁文件、可打开/编译/运行 |
 | GAME-02 | 待做 | 米制场地与主屋空间灰盒 | 按 brief 核对地形、台地、房屋分期、门口和预留区，不要求精模 |
 | GAME-03 | 待做 | Mac 临时移动/观察与评审镜头 | 实际试玩、四个不同角度、操作说明、截图 |
@@ -30,6 +30,6 @@
 
 ## 最近交接
 
-2026-10-18：整理项目入口、状态跟踪、设计快照与素材交付流程。用户负责按需求寻找/创建素材；灰盒不等待美术资产。GitHub 同步状态以 GIT-01 的验证结果为准。
+2026-10-18：项目入口、状态跟踪、设计快照与素材流程已提交。本地文档链接、7 个参考文件 SHA-256、Git LFS fsck 和缓存忽略规则检查通过。已设置 origin，查询远端为空；已安装 GitHub CLI，等待用户完成浏览器设备授权。接手后先运行 `gh auth status`，确认账号 DGKall 后正常推送 main，并核对远端 SHA。用户负责按需求寻找/创建素材；灰盒不等待美术资产。
 
 后续每次工作在这里替换“最近交接”，写明实际修改、验证命令/结果、阻塞和下一步；详细变更由 Git 历史保留。
