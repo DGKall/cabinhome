@@ -1,6 +1,6 @@
 # 进度与交接
 
-更新：2026-10-18。当前阶段：**M0 环境与交接**。正式 Unity 工程尚未创建。
+更新：2026-10-18。当前阶段：**M0 环境与交接已完成，下一步 M1 工程与空间灰盒**。正式 Unity 工程尚未创建。
 
 ## 任务表
 
@@ -9,7 +9,7 @@
 | SETUP-01 | 已完成 | 本地开发与建模环境 | `development/verification-results.txt`：Unity 临时工程启动、三平台模块识别、Blender FBX 导入、GLB 往返与 .NET 编译验证 |
 | DOC-01 | 已完成 | 项目文档、agent 约定与素材流程 | 根目录 README/AGENTS，docs 下项目、进度、决策与素材文档 |
 | REF-01 | 已完成 | 关键设计资料纳入仓库 | `docs/reference/` 中简报、配套 PDF、009/004/006 与地形数据快照 |
-| GIT-01 | 受阻 | 初始化 Git、连接用户指定 GitHub 仓库并同步 | 本地提交与 LFS 检查完成；远端 `https://github.com/DGKall/cabinhome`（公开）；首次推送等待用户完成 GitHub CLI 浏览器授权 |
+| GIT-01 | 已完成 | 初始化 Git、连接用户指定 GitHub 仓库并同步 | DGKall 授权完成；main 已推送至 `https://github.com/DGKall/cabinhome`（公开），跟踪 origin/main；4 个 LFS 对象上传成功 |
 | GAME-01 | 待做 | 创建正式 Unity URP 工程 | `unity/CabinGame/`；固定版本、文本序列化、包锁文件、可打开/编译/运行 |
 | GAME-02 | 待做 | 米制场地与主屋空间灰盒 | 按 brief 核对地形、台地、房屋分期、门口和预留区，不要求精模 |
 | GAME-03 | 待做 | Mac 临时移动/观察与评审镜头 | 实际试玩、四个不同角度、操作说明、截图 |
@@ -19,7 +19,7 @@
 
 ## 下一步（给接手 agent）
 
-完成 GIT-01 后，从 GAME-01 开始。在 `unity/CabinGame/` 创建 Unity 6000.3.26f1 URP 工程，提交可重建的工程配置和 `.meta`。先证明空工程可编译/运行，再做 GAME-02。现有 `city-demo/` 是历史网页演示，不作为 Unity 游戏源码。
+从 GAME-01 开始。在 `unity/CabinGame/` 创建 Unity 6000.3.26f1 URP 工程，提交可重建的工程配置和 `.meta`。先证明空工程可编译/运行，再做 GAME-02。现有 `city-demo/` 是历史网页演示，不作为 Unity 游戏源码。
 
 ## 已验证与未验证
 
@@ -30,6 +30,6 @@
 
 ## 最近交接
 
-2026-10-18：项目入口、状态跟踪、设计快照与素材流程已提交。本地文档链接、7 个参考文件 SHA-256、Git LFS fsck 和缓存忽略规则检查通过。已设置 origin，查询远端为空；已安装 GitHub CLI，等待用户完成浏览器设备授权。接手后先运行 `gh auth status`，确认账号 DGKall 后正常推送 main，并核对远端 SHA。用户负责按需求寻找/创建素材；灰盒不等待美术资产。
+2026-10-18：用户完成 GitHub CLI 授权，账号确认为 DGKall。首次 `git push -u origin main` 成功，4 个 LFS 对象（约 6.9 MB）上传完成。项目入口、状态跟踪、设计快照与素材流程已纳入版本管理。本地文档链接和缓存忽略规则检查通过；从 GitHub 全新克隆后，7 个参考文件 SHA-256、Git LFS fsck 和提交一致性检查全部通过。当前无 GitHub 授权阻塞。下一步创建正式 URP 工程；用户负责按需求寻找/创建素材，灰盒不等待美术资产。
 
 后续每次工作在这里替换“最近交接”，写明实际修改、验证命令/结果、阻塞和下一步；详细变更由 Git 历史保留。
