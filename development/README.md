@@ -14,6 +14,7 @@
 | Blender | 5.2.2 LTS，界面启动和 GLB/FBX 基础导入导出通过 |
 | Xcode | 27.1；iOS 27.1、macOS 27.0 SDK 可用 |
 | Git / Git LFS | Apple Git 2.54.0；复用 Fork 自带 Git LFS 3.7.0 |
+| GitHub CLI | 2.102.0，官方发布包经 SHA-256 校验，安装到 `~/.local/bin/gh` |
 
 临时 Unity 工程成功启动并导入了 Blender 生成的验证 FBX。
 详细记录见 `environment.json` 与 `verification-results.txt`。尚未创建正式 URP 游戏工程或进行平台打包和真机测试。
@@ -61,6 +62,10 @@
 
 工具安装与项目验证是不同阶段。Unity Personal 许可与临时工程启动已经验证；正式 URP 工程、GLB 导入包、构建和设备测试仍应分别记录结果。
 Homebrew 原有版本不识别 macOS 27，且原镜像返回 403；本次主要工具采用官方安装包，不依赖 Homebrew。
+
+GitHub 远端使用用户创建的 `DGKall/cabinhome`。终端登录与浏览器/连接器登录相互独立；可用 `gh auth status` 检查，未登录时由用户执行 `gh auth login --hostname github.com --git-protocol https --web`。不要在文档或聊天中保存密码和访问令牌。
+
+自动化 shell 如果未读取 `.zprofile`，需要先执行 `export PATH="$HOME/.local/bin:$PATH"`，保证 Git 的 LFS hooks 能找到 `git-lfs`。
 
 ## 官方参考
 

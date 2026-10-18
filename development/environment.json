@@ -73,6 +73,11 @@
     "git": {
       "version": "2.54.0 (Apple Git-157)",
       "source": "Xcode"
+    },
+    "github_cli": {
+      "version": "2.102.0",
+      "path": "/Users/yuenakel/.local/bin/gh",
+      "source": "Official cli/cli GitHub release; SHA-256 checked"
     }
   },
   "notes": [
