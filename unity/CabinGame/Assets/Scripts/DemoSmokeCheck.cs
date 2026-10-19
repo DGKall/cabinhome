@@ -21,13 +21,24 @@ namespace CabinHome
             yield return null;
             demo.Home();
             yield return Capture(dir,"00-arrival.png");
-            demo.planning.SetActive(true);
+            demo.planning.SetActive(!demo.styleLighting);
+            if(demo.styleLighting) demo.ShowHud=false;
             for(int i=0;i<4;i++)
             {
                 demo.Review(i);
                 yield return Capture(dir,"0"+(i+1)+"-review.png");
             }
             demo.planning.SetActive(false);
+            if(demo.styleLighting)
+            {
+                demo.styleLighting.Apply(0);
+                transform.position=SitePlan.Ground(73.8f,51.8f,.8f);
+                transform.LookAt(SitePlan.Ground(72.6f,53,.22f));
+                yield return Capture(dir,"06-stone-detail.png");
+                transform.position=SitePlan.Ground(70,58,3);
+                transform.LookAt(SitePlan.Ground(66,62,2.6f));
+                yield return Capture(dir,"07-tree-detail.png");
+            }
             demo.Explore();
             for(int i=0;i<300;i++){demo.Walk(Vector2.up,false,1f/60);yield return null;}
             Vector3 inside=demo.walker.transform.position;

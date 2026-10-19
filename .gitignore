@@ -37,6 +37,11 @@ sysinfo.txt
 
 # Raw downloads, backups and local artifacts
 /assets-source/hunyuan/inbox/**
+# Local review outputs until web-generated asset redistribution terms are recorded.
+/assets-source/exports/PRP_001/
+/assets-source/exports/VEG_003/
+/unity/CabinGame/Assets/LocalArt/
+/unity/CabinGame/Assets/LocalArt.meta
 *.blend[0-9]
 /lfs/
 /output/

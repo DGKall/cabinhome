@@ -10,6 +10,7 @@ namespace CabinHome
         public bool Walking { get; private set; }
         public bool Automated { get; set; }
         public bool ShowHud = true;
+        public StyleLighting styleLighting;
         public string ViewName { get; private set; } = "Meadow arrival";
         float yaw, pitch, distance = 27f;
         Vector3 focus = new(75, 3, 62);
@@ -25,6 +26,7 @@ namespace CabinHome
         public void Home()
         {
             Walking = false;
+            if(styleLighting) styleLighting.Apply(0);
             focus = new Vector3(75,3,62);
             distance = 27;
             yaw = -32;
@@ -93,6 +95,7 @@ namespace CabinHome
         public void Review(int index)
         {
             Walking=false;
+            if(styleLighting) styleLighting.Apply(index);
             transform.position=SitePlan.ReviewPositions[index];
             focus=SitePlan.ReviewTargets[index];
             transform.LookAt(focus);
@@ -122,11 +125,11 @@ namespace CabinHome
             GUI.matrix=Matrix4x4.TRS(Vector3.zero,Quaternion.identity,Vector3.one*scale);
             float w=Screen.width/scale,h=Screen.height/scale;
             Panel(new Rect(24,24,310,127));
-            GUI.Label(new Rect(42,36,280,20),"CABINHOME     /     FIELD STUDY 01",small);
+            GUI.Label(new Rect(42,36,280,20),styleLighting ? "CABINHOME     /     STYLE STUDY 009" : "CABINHOME     /     FIELD STUDY 01",small);
             GUI.Label(new Rect(40,57,285,48),"Cabinhome.",title);
             GUI.Label(new Rect(42,112,280,25),ViewName,body);
             Panel(new Rect(w-268,24,244,76));
-            GUI.Label(new Rect(w-250,36,220,22),"SPATIAL PROTOTYPE  /  v0.1",small);
+            GUI.Label(new Rect(w-250,36,220,22),styleLighting ? "STYLE PROTOTYPE  /  " + styleLighting.PresetName : "SPATIAL PROTOTYPE  /  v0.1",small);
             GUI.Label(new Rect(w-250,61,220,25),"Cabin 48 m²  ·  Plot 3,072 m²",body);
             if(planning.activeSelf)
             {

@@ -1,0 +1,25 @@
+2026-10-19 / macOS / Apple M3 Pro
+Unity 6000.3.26f1 / URP 17.3.0
+
+009 style editor validation: PASS
+Mesh renderers: 180
+Unique meshes: 16
+Triangle instances (entire loaded scene, not visible-frame cost): 56368
+Unique materials: 19
+Rock instances: 12
+Tree instances: 16
+Cabin 6 x 8m, floor top 2m, clear door: PASS
+
+URP standalone smoke: PASS
+Walk from path, climb steps, enter cabin: True at (76.00, 2.03, 65.00)
+North wall blocks player: True
+Runtime errors: False
+Unity: 6000.3.26f1
+GPU: Apple M3 Pro
+
+Build: StyleStudyBuilder.BuildMac PASS, 326482453 bytes reported by Unity.
+Original graybox: GrayboxBuilder.Validate PASS.
+Original Meadow scene and generated graybox materials unchanged in Git diff.
+Screenshots: Builds/style-review/00-arrival.png, 01–04-review.png, 05-walk-inside.png, 06-stone-detail.png, 07-tree-detail.png.
+Windows, iOS, Intel Mac, target FPS and lowest device profile not tested.
+Source licensing metadata pending; local generated art/scene not published to GitHub.

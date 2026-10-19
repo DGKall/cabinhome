@@ -64,3 +64,9 @@ Builds/CabinHome.app/Contents/MacOS/CabinHome \
 ```
 
 它会截图、使用实际步行控制器通过台阶进入室内、检查北墙阻挡，再输出 `report.txt` 并以退出码报告结果。这个测试不替代真实输入和视觉检查；验证记录见进度表。
+
+## 009 风格试玩版（2026-10-19）
+
+双击仓库根 `play-style-demo.command` 启动 `Builds/CabinHome-Style009.app`；原 `play-demo.command` 保留灰盒。控制方式相同，1/2/3/4 分别查看黄昏、蓝调、阴天、黄昏窗景，H 隐藏界面。
+
+本机场景为 `Assets/LocalArt/Style009.unity`。构建：`zsh development/build-mac-style.sh`。生成素材暂只保留本机，新机器重建步骤见 `development/art/README.md`。本机截图在 `Builds/style-review`，验证摘要为 `development/style-validation.txt`。

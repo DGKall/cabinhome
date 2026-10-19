@@ -13,7 +13,9 @@ GitHub：[DGKall/cabinhome](https://github.com/DGKall/cabinhome)（用户创建�
 3. 阅读 [进度与下一步](docs/PROGRESS.md)：实际完成内容、下一项任务及阻塞。
 4. 涉及模型或场景时，阅读 [素材需求](docs/ASSETS.md) 和 [设计简报](docs/reference/05-design-brief/017_cabin-game_agent-build-brief_v01.md)。配套 PDF 包含关键视觉参考。
 
-**当前已有正式 URP 工程和空间灰盒 demo。** 工程位于 `unity/CabinGame/`，入口场景为 `Assets/Scenes/Meadow.unity`。打开场景点击 Play；本机独立包构建后也可双击根目录 `play-demo.command`。详细操作与构建方法见 [试玩说明](docs/DEMO.md)。
+**当前已有正式 URP 工程、空间灰盒和本地 009 风格试玩版。** 双击 `play-style-demo.command` 启动风格版；场景为 `Assets/LocalArt/Style009.unity`，素材整理/重建见 [美术流程](development/art/README.md)。风格版素材暂存本机，公开仓库仅克隆时仍可运行灰盒。
+
+**原灰盒保留。** 工程位于 `unity/CabinGame/`，入口场景为 `Assets/Scenes/Meadow.unity`。打开场景点击 Play；本机独立包构建后也可双击根目录 `play-demo.command`。详细操作与构建方法见 [试玩说明](docs/DEMO.md)。
 
 ## 目录
 

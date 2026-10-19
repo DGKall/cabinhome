@@ -1,0 +1,102 @@
+{
+  "PRP_001": {
+    "source": "assets-source/hunyuan/inbox/PRP_001/9715092750fe0154b1209bc6660c5f3c.glb",
+    "sha256": "42cbe4a12db745499a1e125fc4c0225a4262967f7f71823fba1d6a5927bd494f",
+    "source_triangles": 1499952,
+    "source_dimensions_m": [
+      0.9910420179367065,
+      0.9920241236686707,
+      0.5758050084114075
+    ],
+    "source_images": [
+      {
+        "name": "texture_pbr_20250901",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      {
+        "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      {
+        "name": "texture_pbr_20250901_normal",
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    ],
+    "triangles": 478,
+    "vertices": 241,
+    "dimensions_blender_xyz_m": [
+      0.5925002098083496,
+      0.6000000238418579,
+      0.40291500091552734
+    ],
+    "materials": 1,
+    "uv_layers": 1,
+    "topology": {
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "signed_volume_m3": 0.059151011343651125
+    },
+    "recipe": "Cut source z=0.105; largest component; cap base; max span 0.6m; flat neutral matte",
+    "publication": "Local prototype; web export terms not yet recorded"
+  },
+  "VEG_003": {
+    "source": "assets-source/hunyuan/inbox/VEG_003/ba611d5e1c1c110b17101bb0332074c2.glb",
+    "sha256": "54a72627de0db390ee646847835d5a35b3e957e49aee1e1878440cd69969ff27",
+    "source_triangles": 1496552,
+    "source_dimensions_m": [
+      0.6322979927062988,
+      0.6751350164413452,
+      1.1870760917663574
+    ],
+    "source_images": [
+      {
+        "name": "texture_pbr_20250901",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      {
+        "name": "texture_pbr_20250901_metallic-texture_pbr_20250901_roughness",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      {
+        "name": "texture_pbr_20250901_normal",
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    ],
+    "triangles": 1900,
+    "vertices": 860,
+    "dimensions_blender_xyz_m": [
+      3.141460657119751,
+      3.3817050457000732,
+      6.0
+    ],
+    "materials": 1,
+    "uv_layers": 1,
+    "topology": {
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "signed_volume_m3": 8.386309631698458
+    },
+    "recipe": "Uniform height 6m; smooth normals; 1K base color; matte; no generated normal map",
+    "publication": "Local prototype; web export terms not yet recorded"
+  }
+}
