@@ -36,6 +36,21 @@
       "path": "04-site-planning/015_altai-foothill_terrain-grid-4m_v01.csv",
       "sha256": "668bed02eaaafb6a280ed3a9c221880fee35bac58dcd867acb19df021306cd2b",
       "bytes": 19234
+    },
+    {
+      "path": "06-cabin-design/018_cabin-two-storey_design-board_v01.json",
+      "sha256": "35c1bd38d53316af68e86d46c1437de8c3fc2f1163188c484776fea370e624b6",
+      "bytes": 5274,
+      "source": "built-in image_gen, user-requested cabin design",
+      "added_date": "2026-10-19"
+    },
+    {
+      "path": "06-cabin-design/018_cabin-two-storey_design-board_v01.png",
+      "sha256": "7d0f6c90dc6f8ee52d4c8ec10036da6650c40a29fca7334f56421dba6f394951",
+      "bytes": 2414980,
+      "source": "built-in image_gen, user-requested cabin design",
+      "added_date": "2026-10-19"
     }
-  ]
+  ],
+  "updated_date": "2026-10-19"
 }
