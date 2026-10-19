@@ -50,6 +50,20 @@
       "bytes": 2414980,
       "source": "built-in image_gen, user-requested cabin design",
       "added_date": "2026-10-19"
+    },
+    {
+      "path": "06-cabin-design/019_cabin-compact-loft_design-board_v01.png",
+      "sha256": "173078638c0c101f52a15b994b9cd1d28324e9152e537a2c9c7478d3f1aa2faa",
+      "bytes": 2455553,
+      "source": "built-in image_gen, user-requested compact cabin revision",
+      "added_date": "2026-10-19"
+    },
+    {
+      "path": "06-cabin-design/019_cabin-compact-loft_design-board_v01.json",
+      "sha256": "1a7ed5533b066fa4664d75149a9ec51b6ae659cf45850aad16931f9b0ce7fa92",
+      "bytes": 5031,
+      "source": "built-in image_gen, user-requested compact cabin revision",
+      "added_date": "2026-10-19"
     }
   ],
   "updated_date": "2026-10-19"

@@ -1,0 +1,25 @@
+{
+  "id": "BLD_001_CONCEPT_019",
+  "date": "2026-10-19",
+  "status": "concept_generated_pending_user_review",
+  "generator": "built-in image_gen",
+  "image": "019_cabin-compact-loft_design-board_v01.png",
+  "reference": "../03-stylization/009_altai_dreamcore-simple_4view_v01.png",
+  "user_feedback": "018 太豪华了，不够精致小巧",
+  "design_intent": [
+    "一层半，屋顶内半幅睡眠阁楼",
+    "紧凑门前露台、窗边座位、小门廊",
+    "哑光简化材质与草甸氛围"
+  ],
+  "proposed_scale_m": {
+    "width": 5,
+    "depth": 7,
+    "ridge_height": 4.7
+  },
+  "scope": "尺寸仅为提示词构思比例，未获批准，不替换现有规划或 Unity 灰盒。018 保留作历史比较。",
+  "known_limitations": [
+    "概念图不是施工或建模定稿；外观与剖切的烟管数量、开口和楼梯关系需统一。"
+  ],
+  "prompt": "Use case: stylized-concept. Create ONE beautiful landscape architectural concept board for a VERY SMALL, exquisitely proportioned woodland/meadow cabin for one person or a couple, in a cozy stylized 3D game. The reference supplies ONLY matte simplified materials, quiet meadow palette and blue-grey roof. The user rejected the previous larger two-story villa as far too luxurious. This design must immediately read as a tiny intimate crafted home, not a scaled-down mansion.\nBOARD: warm ivory background with one large 3/4 FRONT exterior image occupying left 62%, a small opposite 3/4 REAR exterior upper-right, and an honest compact cutaway lower-right. Same building, roof and openings in all three views. Clean restrained editorial composition and enough breathing space, landscape 3:2. Only small legible headings 'LITTLE MEADOW CABIN', '01 / EXTERIOR', '02 / REAR', '03 / LOFT'. No numbers that look like measured dimensions.\nCRITICAL SCALE: around 5 metres wide by 7 metres deep, approximately 35 sqm ground floor, only a HALF LOFT sleeping nook tucked beneath the roof, not a full upper storey. Eave height barely above the ground-floor windows, normal-size single entrance door demonstrates small scale. A single simple steep gabled roof covers the whole home, just ONE tiny discreet dormer to give the sleeping loft a little headroom. No wings, no stacked cross-gables, no exterior balcony, no grand porch. Highest ridge roughly 4.7 metres. Do not enlarge the house to fit luxury amenities.\nARCHITECTURAL PERSONALITY: softly weathered pale cream timber with a few precise plank seams, slate-blue standing-seam gabled roof with modest overhang, finely proportioned wood window trim and one pair of faded sage shutters. Simple low stone or timber pier base and a slim dark stovepipe, NOT a massive stone chimney. Front facade: one generous but domestic-scale casement reading window on the LEFT with a shallow wooden window-seat projection; plain narrow glazed timber door to RIGHT recessed under a very small shed-roof canopy held by two slender posts with modest knee braces. Upstairs one small square loft window high in the gable. A compact front timber deck only 3 metres wide and 1.8 metres deep near the entry, two shallow steps, no wraparound deck and no long fence. One built-in narrow bench, small mug, two herb pots, small wall lantern, linen curtains, a few flowers beside the path. Refinement through excellent scale, charming small joints, a little roof asymmetry from the dormer, considered door/window spacing and domestic touches. Do not add furniture everywhere. No abundant flower boxes, no elaborate beams or ornamental carving.\nCUTAWAY: accurately reflect the SAME tiny 5x7m volume. Ground floor has a small wood stove, built-in window seat, compact rear kitchenette and little two-seat table. A narrow but plausible straight wooden stair along one side wall leads to an open sleeping loft occupying only the rear half of the home with one low bed and a modest guard rail; the front living area is open to the roof. The loft must visually be a small elevated nook, not two upstairs rooms. Show enough floor and roof thickness to understand construction, consistent stovepipe and window locations. No large sofa suite, kitchen island, dining room or giant fireplace. Simple readable 3D forms.\nSETTING AND STYLE: calm pale daylight with a gentle hint of lavender in shadows, clear inviting sage-green meadow, a softly rising grassy mountain foot nearby, distant muted mountains and a few scattered small white flowers. House is the visual focus. Matte simplified hand-crafted 3D game art, low surface detail, broad painted colors, subtle bevels, natural scale and softly diffuse light. Quiet restrained warmth from inside, not glowing gold everywhere. Tiny, modest, intimate, refined and lived-in, neither a matchbox nor a luxury chalet. No photoreal timber grain, no ornate country mansion, no saturated orange sunset, no toy/chibi distortion, no oversize windows, no huge deck, no landscaped luxury garden, no people, no watermarks.",
+  "sha256": "173078638c0c101f52a15b994b9cd1d28324e9152e537a2c9c7478d3f1aa2faa"
+}
